@@ -1,1 +1,32 @@
 .hide { display:none }
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/img/0.jpg");
+
+  /* Full height */
+  width: 100vw;
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  box-sizing: border-box;
+}
+
+#id_contents
+{
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:100%;
+  color:white;
+  text-align: center;
+}

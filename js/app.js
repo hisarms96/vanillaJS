@@ -68,10 +68,10 @@ function onLoad()
   quoteDiv.innerHTML = `${chosenQuote.quote} <br/>- by ${chosenQuote.author}`;
 
   // create background image
-  const bgImg = document.createElement('img');
-  bgImg.src = `/img/${chosenImage}`;
+  //const bgImg = document.createElement('img');
+  //bgImg.src = `/img/${chosenImage}`;
 
-  document.body.prepend(bgImg);
+  //document.body.prepend(bgImg);
 }
 
 window.addEventListener("load", onLoad);
