@@ -72,6 +72,19 @@ function onLoad()
   //bgImg.src = `/img/${chosenImage}`;
 
   //document.body.prepend(bgImg);
+
+  drawBackground();
+
 }
 
+
 window.addEventListener("load", onLoad);
+
+const btn_bgchange = document.querySelector('#id_btn_change_bg');
+
+btn_bgchange.addEventListener('click',
+function(){
+  repickBackground();
+  drawBackground();
+});
+
