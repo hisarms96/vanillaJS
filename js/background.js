@@ -4,6 +4,17 @@ const images = [
   , "2.jpg"
 ];
 
-const chosenImage = images[Math.floor(Math.random()*images.length)];
-
+let chosenImage = images[Math.floor(Math.random()*images.length)];
 console.log( chosenImage );
+
+function repickBackground()
+{
+  chosenImage = images[Math.floor(Math.random()*images.length)];
+  console.log( 'repick=',chosenImage );
+}
+
+function drawBackground()
+{
+  var divbg = document.querySelector("div.bg");
+  divbg.style.backgroundImage =  "url('/img/" + chosenImage + "')";
+}

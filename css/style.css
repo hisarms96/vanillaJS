@@ -30,3 +30,30 @@ body, html {
   color:white;
   text-align: center;
 }
+
+#id_quote
+{
+  position:absolute;
+  top: 10px;
+
+  width: 80%;
+  transform: translateX(20%);
+
+  padding-top: 20px 20px;
+  border: 1px solid white;
+}
+
+#id_greetings
+{
+  font-size:6.0em;
+  color:white;
+  font-weight: bold;  
+}
+
+#id_clock
+{
+  
+  font-size:5.0em;
+  color:white;
+  font-weight: bold;
+}
