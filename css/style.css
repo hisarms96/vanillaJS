@@ -33,8 +33,12 @@ body, html {
 
 #id_quote
 {
+  position:absolute;
+  top: 10px;
+
   width: 80%;
   transform: translateX(20%);
+
   padding-top: 20px 20px;
   border: 1px solid white;
 }
@@ -48,6 +52,7 @@ body, html {
 
 #id_clock
 {
+  
   font-size:5.0em;
   color:white;
   font-weight: bold;
